@@ -1,0 +1,88 @@
+*{
+    
+    font-family: 'poppins', sans-serif;
+    background-image: initial;
+ }
+body {
+      background-image: url('https://wallpapers.com/images/high/red-and-blue-calculators-yxm0myfzuym67431.webp');
+      background-repeat: no-repeat;
+      background-attachment: fixed;  
+      background-size: cover;
+      display: grid;
+      height: 100vh;
+      place-items: center;
+    }
+    .container input[type='text'] {
+      position: relative;
+      height: 80px;
+      text-align: right;
+      padding: 2px 10px;
+      width: 87%;
+      border: 5px solid rgb(87, 196, 243);
+      display: flex;
+      margin: auto;
+      font-size: 40px;
+      top: 13px;
+      border-radius: 6px;
+      background-color: rgb(25, 81, 121);
+   }
+.container{
+   width: 400px;
+   height: 450px;
+   border-spacing: 1px 0.5px;
+   background-color: rgb(35, 48, 57);
+   position: fixed;
+   border:  solid 5px rgb(16, 14, 15) ;
+   border-left-color :blue;
+   border-top-color: blue;
+   border-right-color:rgb(251, 25, 202);
+   border-bottom-color: deeppink;
+   border-radius: 20px;
+}
+.Calculator input[type='button']{
+   font-size: 25px;
+   text-shadow: 2px 2px 8px #b8db76;
+   color: rgb(233, 238, 243);
+   background-color: #4e32a4;
+   width:90px;
+   padding: 2px;
+   margin: 2px 0px;
+   position: relative;
+   left: 13px;
+   top: 20px;
+   height: 60px;
+   cursor: pointer;
+   transition: 0.5s;
+   border-radius: 10px;
+   border-left-color :blue;
+   border-left-width:8px ;
+   border-right-color:rgb(251, 60, 200);
+   border-right-width:6px;
+
+}
+.Calculator input[type='buttonC']{
+   font-size: 25px;
+   text-align: center;
+   color: rgb(0, 0, 0);
+   text-shadow: 4px 4px 10px #29d1c3;
+   background-color: rgb(175, 220, 238);
+   width:80px;
+   padding: 2px;
+   margin: 2px 0px;
+   position: relative;
+   left: 13px;
+   top: 20px;
+   height: 50px;
+   cursor: pointer;
+   border-radius: 10px;
+   border-right-color:rgb(15, 14, 15);
+   border-right-width:4px;
+   border-bottom-color:black;
+   border-bottom-width:5px;
+
+}
+.Calculator input[type='button']:hover{
+   background-color: rgb(10, 2, 42);
+   color: rgb(243, 231, 231);
+}
+
